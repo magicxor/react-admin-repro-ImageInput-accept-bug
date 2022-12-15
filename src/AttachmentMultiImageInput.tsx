@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { ImageField } from 'react-admin';
-import { ImageInput } from './StableInputs/ImageInput';
+import { ImageField, ImageInput } from 'react-admin';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const maxFiles = (max: number) => (value: any) => {
